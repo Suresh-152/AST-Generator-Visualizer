@@ -1,0 +1,16 @@
+Algorithm: AST Generator and Visualizer
+
+1. Start the program.
+2. Display a GUI window with a text area for Python source code.
+3. Read the source code entered by the user.
+4. Parse the source code using Python's ast.parse() function.
+5. If a syntax error occurs, display an error message and stop this operation.
+6. Otherwise, traverse the AST recursively:
+   a. Create a graph node for each AST node.
+   b. Label each node with its type and, when relevant, its value.
+   c. Connect each child node to its parent node.
+7. Arrange the nodes in a tree-like layout.
+8. Draw the nodes and connecting edges using NetworkX and Matplotlib.
+9. Display the AST visualization to the user.
+10. Wait for new input or close the application.
+11. Stop.
